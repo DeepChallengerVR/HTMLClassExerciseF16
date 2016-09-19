@@ -95,6 +95,7 @@ footer {
   border-top: 2px black solid;
   background-color: orange;
   background: linear-gradient(225deg, white, orange 75%, black);
+  padding-top: 1.3em;
   padding-bottom: 1em;
 }
 
