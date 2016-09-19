@@ -5,11 +5,12 @@
 img.pumpkin {
   float: left;
   padding-top: 1em;
+  padding-left: 1em;
 }
 
 h1.title {
   text-indent: 1em;
-  margin-top: 1em;
+  padding-top: 0.5em;
  /* color: orange;
   font-style: italic;
   text-shadow: 3px 3px #000000; */
@@ -24,7 +25,7 @@ h1 {
 }
 
 h1.welcome:first-letter {
-  font-size: 2.5em;
+  font-size: 1em;
 }
 
 a {
@@ -75,9 +76,13 @@ header {
   background: linear-gradient(225deg, black, orange 25%, white);
 }
 
+main {
+  padding-left: 1em;
+}
+
 footer {
   border-top: 2px black solid;
   background-color: orange;
-  background: linear-gradient(-225deg, black, orange 25%, white);
+  background: linear-gradient(225deg, white, orange 75%, black);
   padding-bottom: 1em;
 }
