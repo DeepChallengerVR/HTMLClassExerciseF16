@@ -21,12 +21,52 @@ h2.goblin {
   text-indent: 1em;
 }
 
-li a.topNav {
-    list-style-type: none;
-    display: inline;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+#topNav ul {
+  margin: 0;
+  padding: 0;
+}
+
+#topNav li {
+  float: left;
+  list-style-type: none;
+  display: block;
+  padding: 0 10px
+}
+
+#topNav a {
+  display: block;
+  padding: 8px;
+  background-color: #000000;
+}
+
+#vertNav {
+  float: left;
+}
+
+#vertNav ul {
+  position: fixed;
+  top: 12em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#vertNav li a {
+  display: block;
+  padding: 10px;
+  background-color: #808080;
+  border-bottom: black;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-top: black;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-left: black;
+  border-left-width: 2px;
+  border-left-style: solid;
+  border-right: black;
+  border-right-style: solid;
+  border-right-width: 2px;
 }
 
 h1 {
@@ -98,6 +138,7 @@ nav {
 }
 article{
   padding-left: 160px;
+  padding-top: 2em;
 }
 footer {
   border-top: 2px black solid;
