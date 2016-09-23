@@ -22,21 +22,22 @@ h2.goblin {
 }
 
 #topNav ul {
+  list-style-type: none;
   margin: 0;
   padding: 0;
+  overflow: hidden;
+  background-color: #000000;
 }
 
 #topNav li {
   float: left;
-  list-style-type: none;
-  display: block;
-  padding: 0 10px
 }
 
 #topNav a {
+  text-decoration: none;
+  text-align: center;
   display: block;
-  padding: 8px;
-  background-color: #000000;
+  padding: .3em;
 }
 
 #vertNav {
@@ -53,8 +54,11 @@ h2.goblin {
 
 #vertNav li a {
   display: block;
-  padding: 10px;
-  background-color: #808080;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  padding: .6em;
+  background-color: #ffa500;
   border-bottom: black;
   border-bottom-width: 2px;
   border-bottom-style: solid;
@@ -68,6 +72,7 @@ h2.goblin {
   border-right-style: solid;
   border-right-width: 2px;
 }
+
 
 h1 {
   font-size: 2.0em;
@@ -133,9 +138,6 @@ main {
   padding-left: 1em;
 }
 
-nav {
-  float: left;
-}
 article{
   padding-left: 160px;
   padding-top: 2em;
