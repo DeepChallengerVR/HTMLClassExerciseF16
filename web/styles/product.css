@@ -41,11 +41,10 @@ h2.goblin {
 }
 
 #vertNav {
-  float: left;
+  float: left; 
 }
 
 #vertNav ul {
-  position: fixed;
   top: 12em;
   list-style-type: none;
   margin: 0;
@@ -76,7 +75,16 @@ h2.goblin {
 #rSideBar {
   max-width: 180px;
   float: right;
-  
+  background-color: #F5DEB3;
+}
+
+#rSideBar ul {
+  list-style: none;
+}
+
+#rSideBar img {
+  width: auto;
+  height: 3.5em;
 }
 
 h1 {
