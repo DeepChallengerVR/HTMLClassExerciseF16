@@ -78,6 +78,10 @@ h2.goblin {
   background-color: #F5DEB3;
 }
 
+#custRec {
+  
+}
+
 #rSideBar ul {
   list-style: none;
 }
@@ -156,7 +160,6 @@ main {
 }
 
 #cat {
-  padding-left: 9em;
   float: left;
 }
 
@@ -174,4 +177,8 @@ link {
 
 content {
   float: left;
+}
+
+#centerMain {
+  padding-bottom: 9.3em;
 }
