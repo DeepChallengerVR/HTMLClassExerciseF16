@@ -31,9 +31,19 @@ h2.goblin {
 
 #topNav li {
   float: left;
+  width: 20%;
 }
 
-#topNav a {
+#pListpg {
+  color: orange;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .3em;
+}
+
+#topNav a:not(#pListpg){
+  color: white;
   text-decoration: none;
   text-align: center;
   display: block;

@@ -31,14 +31,24 @@ h2.goblin {
 
 #topNav li {
   float: left;
+   width: 20%;
 }
-
-#topNav a {
+#home {
+  color: orange;
   text-decoration: none;
   text-align: center;
   display: block;
   padding: .3em;
 }
+#topNav a:not(#home){
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .3em;
+}
+
+
 
 #vertNav {
   float: left;
@@ -49,7 +59,7 @@ h2.goblin {
   top: 12em;
   list-style-type: none;
   margin: 0;
-  padding: 0;
+  padding-left: 0.5em;
 }
 
 #vertNav li a {

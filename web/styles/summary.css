@@ -34,6 +34,7 @@ h2.goblin {
 }
 
 #topNav a {
+  color: white;
   text-decoration: none;
   text-align: center;
   display: block;
@@ -42,6 +43,7 @@ h2.goblin {
 
 #vertNav {
   float: left;
+  width: 20%;
 }
 
 #vertNav ul {
