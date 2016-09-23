@@ -73,6 +73,11 @@ h2.goblin {
   border-right-width: 2px;
 }
 
+#rSideBar {
+  max-width: 180px;
+  float: right;
+  
+}
 
 h1 {
   font-size: 2.0em;
@@ -138,8 +143,12 @@ main {
   padding-left: 1em;
 }
 
+#products {
+  padding-left: 7em
+}
+
 #cat {
-  pading-left: 9em;
+  padding-left: 9em;
   float: left;
 }
 
