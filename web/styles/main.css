@@ -52,6 +52,8 @@ h2.goblin {
 
 #vertNav {
   float: left;
+  padding-left: 0.5em;
+  padding-top: 0.75em;
 }
 
 #vertNav ul {

@@ -9,6 +9,14 @@ img.pumpkin {
   padding-left: 1em;
 }
 
+#pl {
+  color: orange;
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: .3em;
+}
+
 h1.title {
   text-indent: 1em;
   padding-top: 0.5em;
@@ -34,7 +42,7 @@ h2.goblin {
   width: 20%;
 }
 
-#topNav a {
+#topNav a:not(#pl) {
   color: white;
   text-decoration: none;
   text-align: center;
@@ -45,6 +53,8 @@ h2.goblin {
 #vertNav {
   float: left;
   width: 20%;
+  padding-left: 0.5em;
+  padding-top: 0.75em;
 }
 
 #vertNav ul {
@@ -88,7 +98,6 @@ h1.welcome {
 }
 
 a {
-  color: orange;
   font-weight: bold;
 }
 
@@ -137,6 +146,7 @@ header {
 
 main {
   padding-left: 1em;
+  padding-bottom: 21em;
 }
 
 article{
@@ -157,29 +167,42 @@ link {
 
 table {
   float: right;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-right: 2em;
 }
 
-#mainTable th td {
+/* #mainTable th td {
   border: 1px solid black;
-    border-collapse: collapse;
-     padding: 5px;
-    text-align: left;
-}
+  border-collapse: collapse;
+  padding: 5px;
+  text-align: left; 
+} */
 
 th, td {
   padding-top: 1em;
   text-align: left;
+  border-collapse: collapse;
+  border-spacing: 0;
+
+  
 }
 
 th {
   vertical-align: text-top;
-}
+  border-collapse: collapse;
+  border-spacing: 0;
 
-main {
-  padding-bottom: 33em;
 }
 
 td:last-child {
   background-color: #f5deb3;
-  text-align: right;   
+  text-align: right;  
+  border-collapse: collapse;
+  border-spacing: 0;
+
+}
+
+td {
+  padding:0px;
 }
