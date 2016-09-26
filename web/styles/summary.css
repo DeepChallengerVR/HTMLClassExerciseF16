@@ -31,6 +31,7 @@ h2.goblin {
 
 #topNav li {
   float: left;
+  width: 20%;
 }
 
 #topNav a {
@@ -156,9 +157,22 @@ link {
   float: bottom;
 }
 
+table {
+  float: right;
+}
+
 #mainTable th td {
-   border: 1px solid black;
+  border: 1px solid black;
     border-collapse: collapse;
      padding: 5px;
     text-align: left;
+}
+
+th, td {
+  padding-top: 1em;
+  text-align: left;
+}
+
+th {
+  vertical-align: text-top;
 }
