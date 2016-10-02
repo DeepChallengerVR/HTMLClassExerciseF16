@@ -145,6 +145,12 @@ main {
   padding-left: 1em;
 }
 
+#contact {
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
 article{
   padding-left: 160px;
   padding-top: 2em;
