@@ -146,7 +146,14 @@ main {
   padding-bottom: 3.5em;
 }
 
-#formContent form label {
+#subscribe {
+  float: left;
+  margin-left: 11.5em;
+  background-color: orange;
+  width: 8em;
+}
+
+#formContent form label:not(#subscribe) {
   width: 5em;
   float: left;
   margin-right: 2em;
@@ -157,7 +164,6 @@ main {
 #formContent form input:not(#subscribe) {
   width: 40em;
 }
-
 article{
   padding-left: 160px;
   padding-top: 2em;
