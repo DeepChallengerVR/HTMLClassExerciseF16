@@ -41,20 +41,19 @@
         <h1 class="welcome">Please enter the following information </h1> 
        
         </article>
-        <form id="contact" name="contact" method="get" action="subscribe.html">
-          <label for="firstName">First name</label>
-          <input type="text" name="firstName" value="David">
-          <label for="lastName">Last name</label>
-          <input type="text" name="lastName" value="Powell">
-          <label for="email">Email</label>
-          <input type="text" name="email" value="dpowell2@elon.edu">
-          <label for="zipCode">Zip code</label>
-          <input type="text" name="zipCode" value="27517">
- 
-            
-            <br><br>
-            <input type="submit" value="Submit">
+      <section id="formContent"> 
+      <form id="contact" name="contact" method="get" action="subscribe.html">
+          <label id="fName" for="firstName">First name</label>
+          <input type="text" name="firstName" value="David" required><br>
+          <label id="lName" for="lastName">Last name</label>
+          <input type="text" name="lastName" value="Powell" required><br>
+          <label id="email2" for="email">Email</label>
+          <input type="text" name="email" value="dpowell2@elon.edu" required><br>
+          <label id="zip" for="zipCode">Zip code</label>
+          <input type="text" name="zipCode" value="27517" required><br>
+          <input id="subscribe" type="submit" value="Subscribe">
         </form>
+      </section>
     </main>
     
   <footer> 
