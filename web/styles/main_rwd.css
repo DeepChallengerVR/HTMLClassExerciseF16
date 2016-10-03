@@ -3,6 +3,10 @@
   font-family:Arial;
 }
 
+#sNav {
+    display: none;
+}
+
 img.pumpkin {
   max-width: 100%;
   min-width: 40px;
@@ -171,4 +175,37 @@ footer {
 
 link {
   float: bottom;
+}
+
+@media only screen and (max-width: 800px) {
+    html {
+        background-image: none;
+     }
+     
+     body {
+        box-shadow: none;
+     }
+     
+     * {
+         font-size: 90%;
+     }
+     img {
+         height: auto;
+         width: auto;
+     }  
+     
+     #sNav {
+    display: none;
+}
+}
+
+@media only screen and (max-width: 767px) {
+    #topNav {
+        display: none;
+    }
+    
+    #sNav {
+     display: block;
+}
+
 }
