@@ -8,7 +8,8 @@
 }
 
 img.pumpkin {
-  max-width: 100%;
+  max-width: 85px;
+  width: 100%;
   min-width: 40px;
   height: auto;
   float: left;
@@ -17,7 +18,8 @@ img.pumpkin {
 }
 
 #cat {
-  max-width: 100%;
+  max-width: 154px;
+  width: 100%;
   height: auto;
 }
 
@@ -129,6 +131,7 @@ footer {
 
 body {
   max-width: 960px;
+  width: 95%;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -194,6 +197,19 @@ link {
          width: auto;
      }  
      
+     h1.title {
+        text-indent: 1em;
+        padding-top: 1.4em;
+     }
+     
+     h2.goblin {
+        text-indent: 2em;
+    }
+     
+     #topNav {
+         clear: both;
+     }
+     
      #sNav {
     display: none;
 }
@@ -201,7 +217,15 @@ link {
 
 @media only screen and (max-width: 767px) {
     #topNav {
+      
+    }
+    
+    #topNav li {
         display: none;
+    }
+    
+    #vertNav {
+       c
     }
     
     #sNav {
