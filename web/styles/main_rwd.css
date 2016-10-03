@@ -195,9 +195,10 @@ link {
         box-shadow: none;
      }
      
-     * {
+     content {
          font-size: 90%;
      }
+     
      img {
          height: auto;
          width: auto;
@@ -228,6 +229,10 @@ link {
       padding-top: 0.3em;
     }
     
+     content {
+         font-size: 90%;
+     }
+    
     #topNav {
       background-color: black;
     }
@@ -237,6 +242,7 @@ link {
         float: right;
         background-color: black;
         color: white;
+        line-height: 2em;
     }
     
     #topNav li {
