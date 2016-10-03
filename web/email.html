@@ -43,14 +43,14 @@
         </article>
       <section id="formContent"> 
       <form id="contact" name="contact" method="get" action="subscribe.html">
-          <label id="fName" for="firstName">First name</label>
-          <input type="text" name="firstName" value="David" required><br>
-          <label id="lName" for="lastName">Last name</label>
+          <label id="fName">First name</label>
+          <input type="text" autofocus name="firstName" value="David" required><br>
+          <label id="lName">Last name</label>
           <input type="text" name="lastName" value="Powell" required><br>
-          <label id="email2" for="email">Email</label>
+          <label id="email2">Email</label>
           <input type="text" name="email" value="dpowell2@elon.edu" required><br>
-          <label id="zip" for="zipCode">Zip code</label>
-          <input type="text" name="zipCode" value="27517" required><br>
+          <label id="zip">Zip code</label>
+          <input type="text" name="zipCode" value="27517" title="XXXXX" required pattern="[0-9]{5}"><br>
           <input id="subscribe" type="submit" value="Subscribe">
         </form>
       </section>
