@@ -3,6 +3,10 @@
   font-family:Arial;
 }
 
+#hamburger {
+    display: none;
+}
+
 #sNav {
     display: none;
 }
@@ -218,8 +222,11 @@ link {
 }
 
 @media only screen and (max-width: 767px) {
-    #topNav {
-      
+    #hamburger {
+        display: block;
+        float: right;
+        background-color: black;
+        color: white;
     }
     
     #topNav li {
