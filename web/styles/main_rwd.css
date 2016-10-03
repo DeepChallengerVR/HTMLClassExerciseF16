@@ -62,7 +62,9 @@ h2.goblin {
   padding: .3em;
 }
 
-
+#vertNav2 {
+  display: none;
+}
 
 #vertNav {
   float: left;
@@ -224,12 +226,46 @@ link {
         display: none;
     }
     
-    #vertNav {
-       c
-    }
-    
     #sNav {
      display: block;
 }
+
+    #vertNav {
+      display: none;
+    }
+    
+    #vertNav2 {
+      display: flex;
+      margin-left: 40%
+    }
+
+    #vertNav2 ul {
+      top: 12em;
+      list-style-type: none;
+      margin: 0;
+      padding-left: 0.5em;
+    }
+
+    #vertNav2 li a {
+      width: 12em;
+      display: block;
+      font-weight: bold;
+      text-decoration: none;
+      color: black;
+      padding: .6em;
+      background-color: #ffa500;
+      border-bottom: black;
+      border-bottom-width: 2px;
+      border-bottom-style: solid;
+      border-top: black;
+      border-top-style: solid;
+      border-top-width: 2px;
+      border-left: black;
+      border-left-width: 2px;
+      border-left-style: solid;
+      border-right: black;
+      border-right-style: solid;
+      border-right-width: 2px;
+    }
 
 }
