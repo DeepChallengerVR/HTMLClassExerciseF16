@@ -17,14 +17,14 @@ import javax.servlet.http.HttpServletResponse;
  *
  * @author erikborchers
  */
-@WebServlet("/email.html")
+//@WebServlet("/email.html")
 public class HalloweenServlet extends HttpServlet {
 
       @Override
     protected void doPost(HttpServletRequest request,
             HttpServletResponse response)
             throws ServletException, IOException {
-        String url = "/index.html";
+        String url = "/email.html";
         
         // get current action
         String action = request.getParameter("action");
@@ -48,7 +48,7 @@ public class HalloweenServlet extends HttpServlet {
             if (firstName == null || lastName == null || email == null ||
                 firstName.isEmpty() || lastName.isEmpty() || email.isEmpty() || zipCode.isEmpty()) {
                 message = "Please fill out all three text boxes.";
-                url = "/index.jsp";
+                url = "/email.html";
             } 
             else {
                 message = null;
@@ -56,9 +56,9 @@ public class HalloweenServlet extends HttpServlet {
                 url = "/subscribe.html";
             }
         }
-      //  getServletContext()
-          //      .getRequestDispatcher(url)
-             //   .forward(request, response);
+        getServletContext()
+                .getRequestDispatcher(url)
+                .forward(request, response);
     }
     
     @Override
