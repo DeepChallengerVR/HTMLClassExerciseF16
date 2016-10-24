@@ -31,8 +31,7 @@ public class HalloweenServlet extends HttpServlet {
         // get current action
         String action = request.getParameter("action");
         if (action == null) {
-            //action = "join";  // default action
-            url = "/index.html";
+            action = "join";  // default action
             getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request, response);
@@ -40,7 +39,7 @@ public class HalloweenServlet extends HttpServlet {
 
         // perform action and set URL to appropriate page
         if (action.equals("join")) {
-            url = "/email.html";    // the "join" page
+            url = "/index.html";    // the "join" page
         } 
         else if (action.equals("add")) {
             // get parameters from the request
