@@ -11,6 +11,6 @@
     </servlet-mapping>
     
       <welcome-file-list>
-        <welcome-file>/email.html</welcome-file>
+        <welcome-file>goelon</welcome-file>
     </welcome-file-list>
 </web-app>

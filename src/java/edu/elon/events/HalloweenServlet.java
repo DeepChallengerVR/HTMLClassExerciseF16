@@ -32,9 +32,6 @@ public class HalloweenServlet extends HttpServlet {
         String action = request.getParameter("action");
         if (action == null) {
             action = "join";  // default action
-            getServletContext()
-                .getRequestDispatcher(url)
-                .forward(request, response);
         }
 
         // perform action and set URL to appropriate page
@@ -55,9 +52,6 @@ public class HalloweenServlet extends HttpServlet {
                 message = "Please fill out all three text boxes.";
                 url = "/email.html";
             } 
-            else if (action.equals("null")) {
-                url = "/index.html";
-            }
             else {
                 message = null;
                 System.out.println("first name = " + firstName + " last name = " + lastName + " email = " + email + " zipcode = " + zipCode);
