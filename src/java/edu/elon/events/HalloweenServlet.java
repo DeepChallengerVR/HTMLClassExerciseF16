@@ -3,6 +3,8 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+
+//erik borchers
 package edu.elon.events;
 
 import java.io.IOException;
@@ -30,7 +32,7 @@ public class HalloweenServlet extends HttpServlet {
         String action = request.getParameter("action");
         if (action == null) {
             //action = "join";  // default action
-            url = "index.html";
+            url = "/index.html";
             getServletContext()
                 .getRequestDispatcher(url)
                 .forward(request, response);
@@ -60,6 +62,7 @@ public class HalloweenServlet extends HttpServlet {
             else {
                 message = null;
                 System.out.println("first name = " + firstName + " last name = " + lastName + " email = " + email + " zipcode = " + zipCode);
+                log("first name = " + firstName + " last name = " + lastName + " email = " + email + " zipcode = " + zipCode);
                 url = "/subscribe.html";
             }
         }
