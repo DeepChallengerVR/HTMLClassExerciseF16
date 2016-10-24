@@ -9,4 +9,8 @@
         <servlet-name>HalloweenServlet</servlet-name>
         <url-pattern>/goelon</url-pattern>
     </servlet-mapping>
+    
+      <welcome-file-list>
+        <welcome-file>/email.html</welcome-file>
+    </welcome-file-list>
 </web-app>
