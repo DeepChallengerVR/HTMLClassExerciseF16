@@ -4,16 +4,9 @@
         <servlet-name>HalloweenServlet</servlet-name>
         <servlet-class>edu.elon.events.HalloweenServlet</servlet-class>
     </servlet>
+    
     <servlet-mapping>
         <servlet-name>HalloweenServlet</servlet-name>
-        <url-pattern>/HalloweenServlet</url-pattern>
+        <url-pattern>/goelon</url-pattern>
     </servlet-mapping>
-    <session-config>
-        <session-timeout>
-            30
-        </session-timeout>
-    </session-config>
-    <welcome-file-list>
-        <welcome-file>email.html</welcome-file>
-    </welcome-file-list>
 </web-app>
